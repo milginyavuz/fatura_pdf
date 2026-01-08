@@ -7,7 +7,7 @@ from PIL import Image
 import tempfile
 import re
 
-# Tesseract'ı portable dizinden çalıştır
+# tesseract'ı portable dizinden çalıştır
 tesseract_path = os.path.join(os.path.dirname(sys.executable), "tesseract", "Tesseract-OCR", "tesseract.exe")
 pytesseract.pytesseract.tesseract_cmd = tesseract_path
 
